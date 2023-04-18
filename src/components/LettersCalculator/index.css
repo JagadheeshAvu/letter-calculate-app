@@ -1,0 +1,74 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  margin: 30px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .input {
+    font-size: 18px;
+  }
+}
+.input {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #e4e7eb;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  height: 30px;
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+.counter {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 8px;
+  padding: 10px;
+  padding-right: 30px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #219a6f;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+.image {
+  width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 500px;
+  }
+}
